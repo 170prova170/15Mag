@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'CanvaSansBold';
+    src: url('fonts/canva-sans-bold.otf');
+}
+
+@font-face {
+    font-family: 'GlacialRegular';
+    src: url('fonts/glacial-indifference-regular.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #f9f9f2;
+    font-family: 'GlacialRegular', sans-serif;
+}
+
+.main-title {
+    font-family: 'CanvaSansBold', sans-serif;
+    font-size: 110px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem; 
+}
+
+header img {
+    height: 2.5rem; 
+    width: auto;
+}
+
+header ul {
+    display: flex; /* mette elementi in linea */
+    list-style: none; /* toglie pallini elenco */
+    gap: 6rem; /* spazio tra voci menu */
+    margin: 0; /* reset margini */
+    padding: 0; /* reset rientro */
+    align-items: center; /* allineamento verticale */
+}
+
+header ul li a {
+    text-decoration: none; /* toglie sottolineatura */
+    color: #f9f9f2; /* colore testo */
+    text-transform: uppercase; /* testo maiuscolo */
+    font-size: 1.4rem; /* dimensione font */
+    font-weight: bold; /* spessore font */
+    letter-spacing: 1px; /* spaziatura lettere */
+}
+
+header ul li {
+    color: #f9f9f2; /* colore per i trattini */
+}
